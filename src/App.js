@@ -56,7 +56,7 @@ const App = () => {
     return () => {
       clearTimeout(timer);
     };
-  }, [input, bundle]);
+  }, [input]);
 
   return (
     <div>
